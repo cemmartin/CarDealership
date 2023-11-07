@@ -3,7 +3,7 @@ package Owner;
 import java.util.ArrayList;
 import car.Car;
 
-public abstract class Owner implements IBuy{
+public abstract class Owner {
 
     private String name;
     private int money;
@@ -34,8 +34,5 @@ public abstract class Owner implements IBuy{
         this.collection = collection;
     }
 
-    public int buyVehicle(Customer customer){
-        customer.setMoney(customer.getMoney()) - ;
-    }
 
 }
